@@ -13,7 +13,11 @@ end
 def find_the_cheese(cheese_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |cheese|
-    
+    cheese_index = 0 
+    while cheese_index < cheese_strings.count
+    if cheese_strings.include (cheese) == TRUE
+      
+    end
   end
   result = cheese_strings.include? (cheese_types)
 end
